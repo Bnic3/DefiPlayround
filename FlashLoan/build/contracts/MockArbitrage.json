@@ -1,0 +1,233 @@
+{
+  "contractName": "MockArbitrage",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/MockArbitrage.sol\":\"MockArbitrage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0x24e0364e503a9bbde94c715d26573a76f14cd2a202d45f96f52134ab806b67b9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e12cbaa7378fd9b62280e4e1d164bedcb4399ce238f5f98fc0eefb7e50577981\",\"dweb:/ipfs/QmXRoFGUgfsaRkoPT5bxNMtSayKTQ8GZATLPXf69HcRA51\"]},\"@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"project:/contracts/MockArbitrage.sol\":{\"keccak256\":\"0x8f455e983a70568a8cc8c8b547f1015ba4137e6cd1def5ddb9b102d965094b49\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e7d4097ba1009fcd5a5a24e6982173587c397ec85930cca995622fc636fd53bd\",\"dweb:/ipfs/QmbjRzAnzLxsKzRnux4pEMY6NmxFgXqoFtW1WkLjKkXP5k\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122068f5e767e35aebc5971f054739c8167f2114c2bd53f6f7c86cd83b6a0887a90764736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122068f5e767e35aebc5971f054739c8167f2114c2bd53f6f7c86cd83b6a0887a90764736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "119:48:8:-:0;;;146:19;;;;;;;;;;119:48;;;;;;",
+  "deployedSourceMap": "119:48:8:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ncontract MockArbitrage {\n  constructor() {\n  }\n}\n",
+  "sourcePath": "/Users/bnice/Downloads/blockchainResearch/blockchainDev/DefiPlayground/DefiPlayround/FlashLoan/contracts/MockArbitrage.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/MockArbitrage.sol",
+    "exportedSymbols": {
+      "Context": [
+        1336
+      ],
+      "MockArbitrage": [
+        1377
+      ],
+      "Ownable": [
+        104
+      ]
+    },
+    "id": 1378,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1371,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:8"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/access/Ownable.sol",
+        "file": "@openzeppelin/contracts/access/Ownable.sol",
+        "id": 1372,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1378,
+        "sourceUnit": 105,
+        "src": "65:52:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MockArbitrage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1377,
+        "linearizedBaseContracts": [
+          1377
+        ],
+        "name": "MockArbitrage",
+        "nameLocation": "128:13:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1375,
+              "nodeType": "Block",
+              "src": "160:5:8",
+              "statements": []
+            },
+            "id": 1376,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1373,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "157:2:8"
+            },
+            "returnParameters": {
+              "id": 1374,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "160:0:8"
+            },
+            "scope": 1377,
+            "src": "146:19:8",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1378,
+        "src": "119:48:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:136:8"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/MockArbitrage.sol",
+    "exportedSymbols": {
+      "Context": [
+        1336
+      ],
+      "MockArbitrage": [
+        1377
+      ],
+      "Ownable": [
+        104
+      ]
+    },
+    "id": 1378,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1371,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:8"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/access/Ownable.sol",
+        "file": "@openzeppelin/contracts/access/Ownable.sol",
+        "id": 1372,
+        "nameLocation": "-1:-1:-1",
+        "nodeType": "ImportDirective",
+        "scope": 1378,
+        "sourceUnit": 105,
+        "src": "65:52:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "MockArbitrage",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1377,
+        "linearizedBaseContracts": [
+          1377
+        ],
+        "name": "MockArbitrage",
+        "nameLocation": "128:13:8",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 1375,
+              "nodeType": "Block",
+              "src": "160:5:8",
+              "statements": []
+            },
+            "id": 1376,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1373,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "157:2:8"
+            },
+            "returnParameters": {
+              "id": 1374,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "160:0:8"
+            },
+            "scope": 1377,
+            "src": "146:19:8",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1378,
+        "src": "119:48:8",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:136:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-04-15T22:02:08.970Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
