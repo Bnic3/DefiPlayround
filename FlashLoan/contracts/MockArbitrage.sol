@@ -31,4 +31,7 @@ contract MockArbitrage is Withdrawable {
     requiredFunds = _requiredFunds;
     emit RequiredFundsChanged(_previousRequiredFunds, _requiredFunds);
   }
+  function checkSender() public view returns (address){
+    return msg.sender;
+  }
 }
